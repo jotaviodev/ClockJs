@@ -1,0 +1,22 @@
+{
+  "name": "dayjs",
+  "version": "1.0.0",
+  "description": "a simple project using the DayJs library for make a auto clock",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jotaviodev/ClockJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jotaviodev/ClockJs/issues"
+  },
+  "homepage": "https://github.com/jotaviodev/ClockJs#readme",
+  "dependencies": {
+    "dayjs": "^1.11.10"
+  }
+}
