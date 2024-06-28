@@ -10,11 +10,32 @@
     <div class="clock center">
         <div  class="content" id="content">
         </div>
+        <div class="modal" id="modal">
+            <div id="modal-1" aria-hidden="true">
+                <div tabindex="-1" data-micromodal-close>
+                <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title" >
+                    <header>
+                    <h2 id="modal-1-title">
+                        Modal Title
+                    </h2>
+                    <button aria-label="Close modal" data-micromodal-close></button>
+                    </header>
+                    <div id="modal-1-content">
+                    Modal Content
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="node_modules/dayjs/dayjs.min.js"></script>
     <script src="node_modules/dayjs/plugin/weekday.js"></script>
     <script src="node_modules/dayjs/plugin/localeData.js"></script>
+    <script src="node_modules/dayjs/plugin/timezone.js"></script>
+    <script src="node_modules/dayjs/plugin/utc.js"></script>
     
     <script src="./script.js"></script>
+
+
 </body>
 </html>

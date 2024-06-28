@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jotaviodev/ClockJs#readme",
   "dependencies": {
-    "dayjs": "^1.11.10"
+    "dayjs": "^1.11.10",
+    "micromodal": "^0.4.10"
   }
 }
