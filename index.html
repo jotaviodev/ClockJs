@@ -5,15 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modern Clock</title>
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
-    <div class="clock center">
+    <div class="clock center" id="clock">
         <div  class="content" id="content">
         </div>
     </div>
     <script src="node_modules/dayjs/dayjs.min.js"></script>
     <script src="node_modules/dayjs/plugin/weekday.js"></script>
     <script src="node_modules/dayjs/plugin/localeData.js"></script>
+    <script src="node_modules/dayjs/plugin/utc.js"></script>
+    <script src="node_modules/dayjs/plugin/timezone.js"></script>
+    <script src="node_modules/dayjs/plugin/customParseFormat.js"></script>
+
+    <script src="https://kit.fontawesome.com/d505108623.js" crossorigin="anonymous"></script>
     
     <script src="./script.js"></script>
 </body>
