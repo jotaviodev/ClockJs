@@ -24,7 +24,7 @@ function getHours(timezone){
         <i id="editIcon" class="fa-regular fa-pen-to-square" onclick="openTimesZones(${timeOutId})"></i>
     </h3>
     <h1>${tz.$H}:${tz.$m}:${tz.$s} </h2>
-    <h3>${weekDays[weekDayIndex]}, ${monthDay} ${months[monthNumber+1]}, ${year}</h3>
+    <h3>${weekDays[weekDayIndex]}, ${monthDay} ${months[monthNumber]}, ${year}</h3>
     `
     
 }
